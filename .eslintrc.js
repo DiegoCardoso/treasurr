@@ -1,4 +1,5 @@
 module.exports = {
+    "parser": "babel-eslint",
     "env": {
         "browser": true,
         "es6": true,
@@ -35,6 +36,7 @@ module.exports = {
             "always"
         ],
         "no-console": "off",
+        "react/display-name": ["off", { "ignoreTranspilerName": true }]
     },
     "settings": {
       "react": {

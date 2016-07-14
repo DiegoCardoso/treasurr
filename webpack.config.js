@@ -7,7 +7,7 @@ module.exports = validate({
     './client/app',
     'webpack-hot-middleware/client',
   ],
-  //devtool: 'eval-source-map',
+  devtool: 'eval-source-map',
   output: {
     path: __dirname,
     filename: 'app.js',
